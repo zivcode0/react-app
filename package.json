@@ -1,0 +1,44 @@
+{
+  "name": "react-app",
+  "version": "0.0.1",
+  "description": "ReactJS Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zivcode0/react-app.git"
+  },
+  "author": "zivcode0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zivcode0/react-app/issues"
+  },
+  "homepage": "https://github.com/zivcode0/react-app#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "reactstrap": "^6.3.1"
+  }
+}
